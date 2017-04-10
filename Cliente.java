@@ -19,7 +19,7 @@ public class Cliente extends DomainObject{
     private String zipcode;
     private String pais;
 
-    public Cliente(String nombre, String apellido, String telefono, String calle, String carrera, String ciudad, String zipcode, String pais, String id) {
+    public Cliente(String nombre, String apellido, String id) {
         super(id);
         this.nombre = nombre;
         this.apellido = apellido;
